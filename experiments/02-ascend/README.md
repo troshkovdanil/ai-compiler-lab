@@ -34,3 +34,14 @@ Both should point to:
 ```
 0e81fb9f843e
 ```
+
+Links:
+
+https://llvm.org/devmtg/2026-04/slides/tutorial/tutorial_tarasov.pdf
+
+https://www.hiascend.com/cann/download?versionId=779&ids=d802%2Ch0502%2Ch0602%2Ch0703
+
+https://github.com/Ascend/AscendNPU-IR/blob/master/docs/source/en/introduction/quick_start/installing_guide.md
+
+https://github.com/Ascend/AscendNPU-IR/blob/master/docs/source/en/introduction/quick_start/examples.md
+
