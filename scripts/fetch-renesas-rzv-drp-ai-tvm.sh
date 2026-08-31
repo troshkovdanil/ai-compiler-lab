@@ -122,6 +122,16 @@ git -C "${DEST_DIR}" tag \
     sed 's/^/  /'
 
 log ""
+log "Recent remote release branches:"
+git -C "${DEST_DIR}" branch -r |
+    sed 's/^[[:space:]]*//' |
+    grep 'origin/Release-' |
+    sort -r |
+    head -10 |
+    sed 's/^/  /' ||
+    true
+
+log ""
 if command -v docker >/dev/null 2>&1; then
     log "Docker: $(docker --version)"
 
